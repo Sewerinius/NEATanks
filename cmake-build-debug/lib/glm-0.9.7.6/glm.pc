@@ -1,0 +1,7 @@
+prefix=C:/Program Files (x86)/NEATanks
+includedir=${prefix}/include
+
+Name: GLM
+Description: OpenGL Mathematics
+Version: 0.9.7
+Cflags: -I${includedir}

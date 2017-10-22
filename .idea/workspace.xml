@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="NEATanks" targetName="cursor" />
+      <config projectName="NEATanks" targetName="wave" />
+      <config projectName="NEATanks" targetName="glfw" />
+      <config projectName="NEATanks" targetName="icon" />
+      <config projectName="NEATanks" targetName="simple" />
+      <config projectName="NEATanks" targetName="clipboard" />
+      <config projectName="NEATanks" targetName="empty" />
+      <config projectName="NEATanks" targetName="iconify" />
+      <config projectName="NEATanks" targetName="title" />
+      <config projectName="NEATanks" targetName="heightmap" />
+      <config projectName="NEATanks" targetName="timeout" />
+      <config projectName="NEATanks" targetName="events" />
+      <config projectName="NEATanks" targetName="uninstall" />
+      <config projectName="NEATanks" targetName="gears" />
+      <config projectName="NEATanks" targetName="particles" />
+      <config projectName="NEATanks" targetName="NEATanks" />
+      <config projectName="NEATanks" targetName="joysticks" />
+      <config projectName="NEATanks" targetName="threads" />
+      <config projectName="NEATanks" targetName="splitview" />
+      <config projectName="NEATanks" targetName="boing" />
+      <config projectName="NEATanks" targetName="glfwinfo" />
+      <config projectName="NEATanks" targetName="sharing" />
+      <config projectName="NEATanks" targetName="gamma" />
+      <config projectName="NEATanks" targetName="monitors" />
+      <config projectName="NEATanks" targetName="msaa" />
+      <config projectName="NEATanks" targetName="reopen" />
+      <config projectName="NEATanks" targetName="windows" />
+      <config projectName="NEATanks" targetName="tearing" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="243e7bf6-0d77-4f73-b450-7977277d91c2" name="Default" comment="" />
+    <ignored path="NEATanks.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="NEATanks" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BackgroundShader.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shaders/BackgroundShader.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <folding>
+                <element signature="e#73#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackgroundShader.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shaders/BackgroundShader.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Classes.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/Classes.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2312">
+              <caret line="136" column="16" lean-forward="false" selection-start-line="136" selection-start-column="10" selection-end-line="136" selection-end-column="16" />
+              <folding>
+                <element signature="e#277#1356#0" expanded="false" />
+                <element signature="e#1518#3058#0" expanded="false" />
+                <element signature="e#3060#3493#0" expanded="false" />
+                <element signature="e#3885#4634#0" expanded="false" />
+                <element signature="e#4636#9505#0" expanded="false" />
+                <element signature="e#10279#11116#0" expanded="false" />
+                <element signature="e#11118#11195#0" expanded="false" />
+                <element signature="e#11197#11259#0" expanded="false" />
+                <element signature="e#11261#11375#0" expanded="false" />
+                <element signature="e#11377#11481#0" expanded="false" />
+                <element signature="e#11483#12866#0" expanded="false" />
+                <element signature="e#12868#14382#0" expanded="false" />
+                <element signature="e#14384#15344#0" expanded="false" />
+                <element signature="e#15346#16026#0" expanded="false" />
+                <element signature="e#16028#16974#0" expanded="false" />
+                <element signature="e#16976#17350#0" expanded="false" />
+                <element signature="e#17352#17512#0" expanded="false" />
+                <element signature="e#17514#18240#0" expanded="false" />
+                <element signature="e#18242#18475#0" expanded="false" />
+                <element signature="e#18477#18868#0" expanded="false" />
+                <element signature="e#18870#19142#0" expanded="false" />
+                <element signature="e#19144#19634#0" expanded="false" />
+                <element signature="e#19636#19718#0" expanded="false" />
+                <element signature="e#19720#19805#0" expanded="false" />
+                <element signature="e#19807#20255#0" expanded="false" />
+                <element signature="e#20257#21357#0" expanded="false" />
+                <element signature="e#21359#21546#0" expanded="false" />
+                <element signature="e#21548#22005#0" expanded="false" />
+                <element signature="e#22007#22598#0" expanded="false" />
+                <element signature="e#22600#23454#0" expanded="false" />
+                <element signature="e#23685#24219#0" expanded="false" />
+                <element signature="e#24893#26526#0" expanded="false" />
+                <element signature="e#26528#26878#0" expanded="false" />
+                <element signature="e#26880#27521#0" expanded="false" />
+                <element signature="e#27523#28222#0" expanded="false" />
+                <element signature="e#28224#28433#0" expanded="false" />
+                <element signature="e#28435#29140#0" expanded="false" />
+                <element signature="e#29142#29512#0" expanded="false" />
+                <element signature="e#29514#29615#0" expanded="false" />
+                <element signature="e#29617#29841#0" expanded="false" />
+                <element signature="e#29843#29880#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backgroundFragmentShader.glsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/shaders/backgroundFragmentShader.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Renderer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderers/Renderer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="33" lean-forward="false" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/settings.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="GLSL Shader" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NEATa</find>
+      <find>Static</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Background</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Tank.h" />
+        <option value="$PROJECT_DIR$/src/Classes.cpp" />
+        <option value="$PROJECT_DIR$/src/Classes.h" />
+        <option value="$PROJECT_DIR$/src/settings.txt" />
+        <option value="$PROJECT_DIR$/src/settingsLoader.cpp" />
+        <option value="$PROJECT_DIR$/src/shader.cpp" />
+        <option value="$PROJECT_DIR$/src/shaders/TriangleShader.cpp" />
+        <option value="$PROJECT_DIR$/src/shaders/TriangleShader.h" />
+        <option value="$PROJECT_DIR$/src/gl.h" />
+        <option value="$PROJECT_DIR$/src/classes/ModelData.h" />
+        <option value="$PROJECT_DIR$/src/renderer.cpp" />
+        <option value="$PROJECT_DIR$/src/renderers/renderer.h" />
+        <option value="$PROJECT_DIR$/src/shaders/LineShader.h" />
+        <option value="$PROJECT_DIR$/src/shaders/Shader.cpp" />
+        <option value="$PROJECT_DIR$/src/shaders/LineShader.cpp" />
+        <option value="$PROJECT_DIR$/bin/Debug/shaders/lineFragmentShader.frag" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/shaders/ShaderProgram.h" />
+        <option value="$PROJECT_DIR$/bin/Debug/shaders/lineVertexShader.vert" />
+        <option value="$PROJECT_DIR$/NEATEvolve.lua" />
+        <option value="$PROJECT_DIR$/bin/Debug/settings.txt" />
+        <option value="$PROJECT_DIR$/src/classes/Classes.cpp" />
+        <option value="$PROJECT_DIR$/src/shaders/StaticShader.h" />
+        <option value="$PROJECT_DIR$/src/shaders/StaticShader.cpp" />
+        <option value="$PROJECT_DIR$/src/display.h" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/shaders/lineVertexShader.vert" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/shaders/lineFragmentShader.frag" />
+        <option value="$PROJECT_DIR$/src/renderers/Renderer.h" />
+        <option value="$PROJECT_DIR$/src/classes/SettingsData.h" />
+        <option value="$PROJECT_DIR$/src/classes/Classes.h" />
+        <option value="$PROJECT_DIR$/src/shaders/ShaderProgram.cpp" />
+        <option value="$PROJECT_DIR$/src/loader.cpp" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/shaders/backgroundVertexShader.glsl" />
+        <option value="$PROJECT_DIR$/src/display.cpp" />
+        <option value="$PROJECT_DIR$/src/NEATanks.h" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/shaders/BackgroundShader.h" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/shaders/backgroundFragmentShader.glsl" />
+        <option value="$PROJECT_DIR$/src/renderers/Renderer.cpp" />
+        <option value="$PROJECT_DIR$/src/shaders/BackgroundShader.cpp" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/settings.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NEATanks" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="NEATanks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEATanks" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="NEATanks" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEATanks" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="NEATanks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dom\ClionProjects\NEATanks\src\renderers" />
+      <recent name="C:\Users\Dom\ClionProjects\NEATanks\src\shaders" />
+      <recent name="C:\Users\Dom\ClionProjects\NEATanks" />
+      <recent name="C:\Users\Dom\ClionProjects\NEATanks\src\classes" />
+      <recent name="C:\Users\Dom\ClionProjects\NEATanks\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dom\ClionProjects\NEATanks\cmake-build-debug" />
+      <recent name="C:\Users\Dom\ClionProjects\NEATanks\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.NEATanks">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="NEATanks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="NEATanks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="NEATanks">
+      <envs />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="NEATanks" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="NEATanks" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NEATanks" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NEATanks" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NEATanks" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NEATanks" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NEATanks" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NEATanks" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NEATanks" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration name="boing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="boing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="boing">
+      <envs />
+    </configuration>
+    <configuration name="clipboard" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="clipboard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="clipboard">
+      <envs />
+    </configuration>
+    <configuration name="cursor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="cursor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="cursor">
+      <envs />
+    </configuration>
+    <configuration name="empty" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="empty" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="empty">
+      <envs />
+    </configuration>
+    <configuration name="events" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="events" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="events">
+      <envs />
+    </configuration>
+    <configuration name="gamma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="gamma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="gamma">
+      <envs />
+    </configuration>
+    <configuration name="gears" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="gears" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="gears">
+      <envs />
+    </configuration>
+    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="glfw" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="glfwinfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="glfwinfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="glfwinfo">
+      <envs />
+    </configuration>
+    <configuration name="heightmap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="heightmap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="heightmap">
+      <envs />
+    </configuration>
+    <configuration name="icon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="icon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="icon">
+      <envs />
+    </configuration>
+    <configuration name="iconify" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="iconify" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="iconify">
+      <envs />
+    </configuration>
+    <configuration name="joysticks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="joysticks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="joysticks">
+      <envs />
+    </configuration>
+    <configuration name="monitors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="monitors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="monitors">
+      <envs />
+    </configuration>
+    <configuration name="msaa" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="msaa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="msaa">
+      <envs />
+    </configuration>
+    <configuration name="particles" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="particles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="particles">
+      <envs />
+    </configuration>
+    <configuration name="reopen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="reopen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="reopen">
+      <envs />
+    </configuration>
+    <configuration name="sharing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="sharing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="sharing">
+      <envs />
+    </configuration>
+    <configuration name="simple" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="simple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="simple">
+      <envs />
+    </configuration>
+    <configuration name="splitview" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="splitview" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="splitview">
+      <envs />
+    </configuration>
+    <configuration name="tearing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="tearing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="tearing">
+      <envs />
+    </configuration>
+    <configuration name="threads" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="threads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="threads">
+      <envs />
+    </configuration>
+    <configuration name="timeout" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="timeout" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="timeout">
+      <envs />
+    </configuration>
+    <configuration name="title" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="title" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="title">
+      <envs />
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="wave" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="wave" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="wave">
+      <envs />
+    </configuration>
+    <configuration name="windows" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NEATanks" TARGET_NAME="windows" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NEATanks" RUN_TARGET_NAME="windows">
+      <envs />
+    </configuration>
+    <list size="29">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NEATanks" />
+      <item index="2" class="java.lang.String" itemvalue="Application.uninstall" />
+      <item index="3" class="java.lang.String" itemvalue="Application.boing" />
+      <item index="4" class="java.lang.String" itemvalue="Application.gears" />
+      <item index="5" class="java.lang.String" itemvalue="Application.heightmap" />
+      <item index="6" class="java.lang.String" itemvalue="Application.particles" />
+      <item index="7" class="java.lang.String" itemvalue="Application.simple" />
+      <item index="8" class="java.lang.String" itemvalue="Application.splitview" />
+      <item index="9" class="java.lang.String" itemvalue="Application.wave" />
+      <item index="10" class="java.lang.String" itemvalue="Application.glfw" />
+      <item index="11" class="java.lang.String" itemvalue="Application.clipboard" />
+      <item index="12" class="java.lang.String" itemvalue="Application.cursor" />
+      <item index="13" class="java.lang.String" itemvalue="Application.empty" />
+      <item index="14" class="java.lang.String" itemvalue="Application.events" />
+      <item index="15" class="java.lang.String" itemvalue="Application.gamma" />
+      <item index="16" class="java.lang.String" itemvalue="Application.glfwinfo" />
+      <item index="17" class="java.lang.String" itemvalue="Application.icon" />
+      <item index="18" class="java.lang.String" itemvalue="Application.iconify" />
+      <item index="19" class="java.lang.String" itemvalue="Application.joysticks" />
+      <item index="20" class="java.lang.String" itemvalue="Application.monitors" />
+      <item index="21" class="java.lang.String" itemvalue="Application.msaa" />
+      <item index="22" class="java.lang.String" itemvalue="Application.reopen" />
+      <item index="23" class="java.lang.String" itemvalue="Application.sharing" />
+      <item index="24" class="java.lang.String" itemvalue="Application.tearing" />
+      <item index="25" class="java.lang.String" itemvalue="Application.threads" />
+      <item index="26" class="java.lang.String" itemvalue="Application.timeout" />
+      <item index="27" class="java.lang.String" itemvalue="Application.title" />
+      <item index="28" class="java.lang.String" itemvalue="Application.windows" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="243e7bf6-0d77-4f73-b450-7977277d91c2" name="Default" comment="" />
+      <created>1473094244912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1473094244912</updated>
+      <workItem from="1489599686579" duration="4180000" />
+      <workItem from="1489682865126" duration="6965000" />
+      <workItem from="1489921676411" duration="8221000" />
+      <workItem from="1490083991906" duration="5336000" />
+      <workItem from="1506613564479" duration="1513000" />
+      <workItem from="1507625724091" duration="39000" />
+      <workItem from="1508686655793" duration="270000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26524000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13489583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3244963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26865673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <condition expression="input1 = -1" language="ObjectiveC" />
+          <url>file://$PROJECT_DIR$/src/classes/Classes.cpp</url>
+          <line>197</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/classes/Classes.cpp</url>
+          <line>611</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="104" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-6.1.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/bits/stl_construct.h" />
+    <entry file="file://$PROJECT_DIR$/src/shaders/StaticShader.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/shaders/TriangleShader.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/shaders/TriangleShader.h" />
+    <entry file="file://$PROJECT_DIR$/lib/glad/include/glad/glad.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/glfw-3.2.1/deps/linmath.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linmath.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/ShaderProgram.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/ModelData.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-6.1.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/bits/cpp_type_traits.h" />
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-6.1.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/bits/stl_algobase.h" />
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-6.1.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/bits/stl_uninitialized.h" />
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-6.1.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/bits/stl_iterator.h" />
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-6.1.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/ext/new_allocator.h" />
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-6.1.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/bits/stl_function.h" />
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-6.1.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/bits/stl_vector.h" />
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-6.1.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/ext/alloc_traits.h" />
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-6.1.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/bits/alloc_traits.h" />
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-6.1.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/bits/allocator.h" />
+    <entry file="file://$PROJECT_DIR$/bin/Debug/gen1.pool" />
+    <entry file="file://$PROJECT_DIR$/bin/Debug/gen2.pool" />
+    <entry file="file://$PROJECT_DIR$/bin/Debug/gen4.pool" />
+    <entry file="file://$PROJECT_DIR$/bin/Debug/gen3.pool" />
+    <entry file="file://$PROJECT_DIR$/bin/Debug/shaders/lineFragmentShader.frag" />
+    <entry file="file://$PROJECT_DIR$/NEATEvolve.lua" />
+    <entry file="file://$PROJECT_DIR$/bin/Debug/settings.txt" />
+    <entry file="file://$PROJECT_DIR$/bin/Debug/shaders/lineVertexShader.vert" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/display.h" />
+    <entry file="file://$PROJECT_DIR$/src/shaders/StaticShader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="2" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/shaders/lineVertexShader.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/shaders/lineFragmentShader.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderers/Renderer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Classes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/SettingsData.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/ShaderProgram.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="91" column="51" lean-forward="true" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/shaders/backgroundVertexShader.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/shaders/tmp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/shaders/backgroundFragmentShader.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NEATanks.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/loader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="136" column="27" lean-forward="true" selection-start-line="136" selection-start-column="27" selection-end-line="136" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/display.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/BackgroundShader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="e#73#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/StaticShader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/BackgroundShader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Classes.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="136" column="16" lean-forward="false" selection-start-line="136" selection-start-column="10" selection-end-line="136" selection-end-column="16" />
+          <folding>
+            <element signature="e#277#1356#0" expanded="false" />
+            <element signature="e#1518#3058#0" expanded="false" />
+            <element signature="e#3060#3493#0" expanded="false" />
+            <element signature="e#3885#4634#0" expanded="false" />
+            <element signature="e#4636#9505#0" expanded="false" />
+            <element signature="e#10279#11116#0" expanded="false" />
+            <element signature="e#11118#11195#0" expanded="false" />
+            <element signature="e#11197#11259#0" expanded="false" />
+            <element signature="e#11261#11375#0" expanded="false" />
+            <element signature="e#11377#11481#0" expanded="false" />
+            <element signature="e#11483#12866#0" expanded="false" />
+            <element signature="e#12868#14382#0" expanded="false" />
+            <element signature="e#14384#15344#0" expanded="false" />
+            <element signature="e#15346#16026#0" expanded="false" />
+            <element signature="e#16028#16974#0" expanded="false" />
+            <element signature="e#16976#17350#0" expanded="false" />
+            <element signature="e#17352#17512#0" expanded="false" />
+            <element signature="e#17514#18240#0" expanded="false" />
+            <element signature="e#18242#18475#0" expanded="false" />
+            <element signature="e#18477#18868#0" expanded="false" />
+            <element signature="e#18870#19142#0" expanded="false" />
+            <element signature="e#19144#19634#0" expanded="false" />
+            <element signature="e#19636#19718#0" expanded="false" />
+            <element signature="e#19720#19805#0" expanded="false" />
+            <element signature="e#19807#20255#0" expanded="false" />
+            <element signature="e#20257#21357#0" expanded="false" />
+            <element signature="e#21359#21546#0" expanded="false" />
+            <element signature="e#21548#22005#0" expanded="false" />
+            <element signature="e#22007#22598#0" expanded="false" />
+            <element signature="e#22600#23454#0" expanded="false" />
+            <element signature="e#23685#24219#0" expanded="false" />
+            <element signature="e#24893#26526#0" expanded="false" />
+            <element signature="e#26528#26878#0" expanded="false" />
+            <element signature="e#26880#27521#0" expanded="false" />
+            <element signature="e#27523#28222#0" expanded="false" />
+            <element signature="e#28224#28433#0" expanded="false" />
+            <element signature="e#28435#29140#0" expanded="false" />
+            <element signature="e#29142#29512#0" expanded="false" />
+            <element signature="e#29514#29615#0" expanded="false" />
+            <element signature="e#29617#29841#0" expanded="false" />
+            <element signature="e#29843#29880#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderers/Renderer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="33" lean-forward="false" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../NEATanks/cmake-build-debug/settings.txt" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/settings.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

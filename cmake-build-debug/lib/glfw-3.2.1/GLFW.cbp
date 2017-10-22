@@ -1,0 +1,1603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\glfw-3.2.1\;CMake Files\lib\glfw-3.2.1\CMake\;CMake Files\lib\glfw-3.2.1\CMake\modules\;CMake Files\lib\glfw-3.2.1\src\;CMake Files\lib\glfw-3.2.1\examples\;CMake Files\lib\glfw-3.2.1\tests\;CMake Files\lib\glm-0.9.7.6\;CMake Files\lib\glm-0.9.7.6\cmake\;CMake Files\lib\glm-0.9.7.6\glm\;CMake Files\lib\glm-0.9.7.6\test\;CMake Files\lib\glm-0.9.7.6\test\bug\;CMake Files\lib\glm-0.9.7.6\test\core\;CMake Files\lib\glm-0.9.7.6\test\gtc\;CMake Files\lib\glm-0.9.7.6\test\gtx\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boing">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/boing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 boing"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boing/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/boing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 boing/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/simple.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 simple"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/simple.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 simple/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gears">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/gears.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 gears"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gears/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/gears.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 gears/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wave">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/wave.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 wave"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wave/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/wave.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 wave/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="particles">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/particles.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 particles"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="particles/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/particles.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 particles/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/heightmap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 heightmap"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/heightmap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 heightmap/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splitview">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/splitview.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 splitview"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splitview/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/splitview.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 splitview/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipboard">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/clipboard.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clipboard"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipboard/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/clipboard.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clipboard/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joysticks">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/joysticks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 joysticks"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joysticks/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/joysticks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 joysticks/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="events">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/events.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 events"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="events/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/events.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 events/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msaa">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/msaa.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 msaa"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msaa/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/msaa.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 msaa/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iconify">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/iconify.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 iconify"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iconify/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/iconify.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 iconify/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gamma">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/gamma.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 gamma"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gamma/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/gamma.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 gamma/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfwinfo">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/glfwinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 glfwinfo"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfwinfo/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/glfwinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 glfwinfo/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitors">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/monitors.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 monitors"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitors/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/monitors.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 monitors/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reopen">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/reopen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 reopen"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reopen/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/reopen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 reopen/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cursor">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/cursor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 cursor"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cursor/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/cursor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 cursor/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/empty.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 empty"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/empty.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 empty/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="icon">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/icon.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 icon"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="icon/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/icon.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 icon/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharing">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/sharing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 sharing"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharing/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/sharing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 sharing/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tearing">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/tearing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 tearing"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tearing/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/tearing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 tearing/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threads">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/threads.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 threads"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threads/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/threads.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 threads/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timeout">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/timeout.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 timeout"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timeout/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/timeout.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 timeout/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="title">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/title.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 title"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="title/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/title.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 title/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/windows.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 windows"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows/fast">
+				<Option output="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/windows.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps"/>
+					<Add directory="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 windows/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glfw-3.2.1/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps/getopt.c">
+			<Option target="particles"/>
+			<Option target="clipboard"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="tearing"/>
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps/getopt.h">
+			<Option target="particles"/>
+			<Option target="clipboard"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="tearing"/>
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps/glad.c">
+			<Option target="boing"/>
+			<Option target="simple"/>
+			<Option target="gears"/>
+			<Option target="wave"/>
+			<Option target="particles"/>
+			<Option target="heightmap"/>
+			<Option target="splitview"/>
+			<Option target="clipboard"/>
+			<Option target="joysticks"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="reopen"/>
+			<Option target="cursor"/>
+			<Option target="empty"/>
+			<Option target="icon"/>
+			<Option target="sharing"/>
+			<Option target="tearing"/>
+			<Option target="threads"/>
+			<Option target="timeout"/>
+			<Option target="title"/>
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps/glad/glad.h">
+			<Option target="boing"/>
+			<Option target="simple"/>
+			<Option target="gears"/>
+			<Option target="wave"/>
+			<Option target="particles"/>
+			<Option target="heightmap"/>
+			<Option target="splitview"/>
+			<Option target="clipboard"/>
+			<Option target="joysticks"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="reopen"/>
+			<Option target="cursor"/>
+			<Option target="empty"/>
+			<Option target="icon"/>
+			<Option target="sharing"/>
+			<Option target="tearing"/>
+			<Option target="threads"/>
+			<Option target="timeout"/>
+			<Option target="title"/>
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps/tinycthread.c">
+			<Option target="particles"/>
+			<Option target="empty"/>
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/deps/tinycthread.h">
+			<Option target="particles"/>
+			<Option target="empty"/>
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/boing.c">
+			<Option target="boing"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/gears.c">
+			<Option target="gears"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/glfw.rc">
+			<Option target="boing"/>
+			<Option target="simple"/>
+			<Option target="gears"/>
+			<Option target="wave"/>
+			<Option target="particles"/>
+			<Option target="heightmap"/>
+			<Option target="splitview"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/heightmap.c">
+			<Option target="heightmap"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/particles.c">
+			<Option target="particles"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/simple.c">
+			<Option target="simple"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/splitview.c">
+			<Option target="splitview"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/wave.c">
+			<Option target="wave"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/win32_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/clipboard.c">
+			<Option target="clipboard"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/cursor.c">
+			<Option target="cursor"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/empty.c">
+			<Option target="empty"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/events.c">
+			<Option target="events"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/gamma.c">
+			<Option target="gamma"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/glfwinfo.c">
+			<Option target="glfwinfo"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/icon.c">
+			<Option target="icon"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/iconify.c">
+			<Option target="iconify"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/joysticks.c">
+			<Option target="joysticks"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/monitors.c">
+			<Option target="monitors"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/msaa.c">
+			<Option target="msaa"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/reopen.c">
+			<Option target="reopen"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/sharing.c">
+			<Option target="sharing"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/tearing.c">
+			<Option target="tearing"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/threads.c">
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/timeout.c">
+			<Option target="timeout"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/title.c">
+			<Option target="title"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/windows.c">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\examples\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\examples\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\tests\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\tests\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/CMakePackageConfigHelpers.cmake">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glm.pc.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/CMakePackageConfigHelpers.cmake">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glm.pc.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\glm\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\glm\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\bug\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\bug\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\gtc\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\gtc\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\gtx\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\gtx\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

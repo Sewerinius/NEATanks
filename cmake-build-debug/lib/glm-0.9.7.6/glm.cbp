@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\glfw-3.2.1\;CMake Files\lib\glfw-3.2.1\CMake\;CMake Files\lib\glfw-3.2.1\CMake\modules\;CMake Files\lib\glfw-3.2.1\src\;CMake Files\lib\glfw-3.2.1\examples\;CMake Files\lib\glfw-3.2.1\tests\;CMake Files\lib\glm-0.9.7.6\;CMake Files\lib\glm-0.9.7.6\cmake\;CMake Files\lib\glm-0.9.7.6\glm\;CMake Files\lib\glm-0.9.7.6\test\;CMake Files\lib\glm-0.9.7.6\test\bug\;CMake Files\lib\glm-0.9.7.6\test\core\;CMake Files\lib\glm-0.9.7.6\test\gtc\;CMake Files\lib\glm-0.9.7.6\test\gtx\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glm-0.9.7.6"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glm-0.9.7.6/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glm-0.9.7.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glm-0.9.7.6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sewerin/Documents/GitHub/NEATanks/cmake-build-debug/lib/glm-0.9.7.6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\examples\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\examples\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\tests\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glfw-3.2.1/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw-3.2.1\tests\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/CMakePackageConfigHelpers.cmake">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glm.pc.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/CMakePackageConfigHelpers.cmake">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/cmake/glm.pc.in">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\glm\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\glm\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\bug\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\bug\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\gtc\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\gtc\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\gtx\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sewerin/Documents/GitHub/NEATanks/lib/glm-0.9.7.6/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm-0.9.7.6\test\gtx\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
